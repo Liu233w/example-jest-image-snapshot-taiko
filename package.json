@@ -1,0 +1,21 @@
+{
+  "name": "test-jest-image-snapshot-taiko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "taiko",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "jest-image-snapshot": "^4.0.0",
+    "taiko": "^1.0.11"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>/jest-setup.js"]
+  }
+}
